@@ -7,9 +7,13 @@
 <br>
 
 ## 📝 Api-docs
-<img alt="image" src="https://user-images.githubusercontent.com/99185757/200645930-2a3dcddc-6fc6-4447-aca4-ee6cc634e56c.png">
+<img width="1320" alt="스크린샷 2022-11-09 오전 10 27 49" src="https://user-images.githubusercontent.com/99185757/200714213-e456d954-0a8c-47b0-934a-958aea881b31.png">
+
+
 
 <br>
 
 ## 🔗 Data Pipeline
+<p align="center">
 <img alt="image" width="850" src="https://user-images.githubusercontent.com/99185757/200646073-c7137242-baec-4aa0-8939-cab4e224608d.png">
+</p>
