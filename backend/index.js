@@ -99,7 +99,7 @@ app.post("/user", async (req, res) => {
   res.send(user.get("_id"));
 });
 
-app.post("/tokens/phone", async (req, res) => {
+app.post("/tokens/request-token", async (req, res) => {
   let myToken = "";
   let result = "";
   let isValid = true;
@@ -126,7 +126,7 @@ app.post("/tokens/phone", async (req, res) => {
   res.send("핸드폰으로 인증 문자가 전송되었습니다!");
 });
 
-app.patch("/tokens/phone", async (req, res) => {
+app.patch("/tokens/validate-token", async (req, res) => {
   const phone = req.body.phone;
   const token = req.body.token;
 

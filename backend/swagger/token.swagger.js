@@ -1,6 +1,6 @@
 /**
  * @swagger
- * /tokens/phone:
+ * /tokens/request-token:
  *   post:
  *     summary: 토큰 인증 요청
  *     tags: [token-controller]
@@ -23,6 +23,7 @@
  *              schema:
  *                  type: string
  *                  example: 핸드폰으로 인증 문자가 전송되었습니다!
+ * /tokens/validate-token:
  *   patch:
  *     summary: 인증 완료
  *     tags: [token-controller]
